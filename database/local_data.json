@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Portal Administrator",
+      "email": "admin@covidportal.org",
+      "mobile": "9876543210",
+      "password": "$2a$10$eO0gWl6pYjYJ81X7cW0dve3l4wM9J8v6K.12uM7vC2gR9pG3kE8e2",
+      "role": "admin",
+      "created_at": "2026-10-18T05:00:00.000Z",
+      "password_hash": "$2b$10$FNvy00VMnWvdCcSQEta5B./G00vSMQrS0IkS9rF4JWMte32GF4o6i"
+    },
+    {
+      "id": 2,
+      "name": "Omkar Ahirrao",
+      "email": "omkar@gmail.com",
+      "mobile": "9822334455",
+      "password": "$2a$10$eO0gWl6pYjYJ81X7cW0dve3l4wM9J8v6K.12uM7vC2gR9pG3kE8e2",
+      "role": "user",
+      "created_at": "2026-10-18T05:10:00.000Z",
+      "password_hash": "$2b$10$FNvy00VMnWvdCcSQEta5B./G00vSMQrS0IkS9rF4JWMte32GF4o6i"
+    },
+    {
+      "id": 3,
+      "name": "Priya Sharma",
+      "email": "priya.sharma@outlook.com",
+      "mobile": "9898765432",
+      "password": "$2a$10$eO0gWl6pYjYJ81X7cW0dve3l4wM9J8v6K.12uM7vC2gR9pG3kE8e2",
+      "role": "user",
+      "created_at": "2026-10-18T05:15:00.000Z",
+      "password_hash": "$2b$10$FNvy00VMnWvdCcSQEta5B./G00vSMQrS0IkS9rF4JWMte32GF4o6i"
+    },
+    {
+      "id": 4,
+      "name": "Suresh Kumar",
+      "email": "suresh.1792310747180@hospital.org",
+      "mobile": "9822334455",
+      "password_hash": "$2b$10$xa1ocvhhlQ4R2tpaylAzfe9uYRD2SqFRk3PzIrBZ2N5tHNf.srJja",
+      "role": "user",
+      "created_at": "2026-10-18T08:05:47.295Z"
+    },
+    {
+      "id": 5,
+      "name": "OMKAR AHIRRAO",
+      "email": "omkarahirrao2005@gmail.com",
+      "mobile": "7823023858",
+      "password_hash": "$2b$10$.YcqAZBl6iNNh.w2TwazfuDSNxARCweBEoVcLGMjBHda6qnPBU7xS",
+      "role": "user",
+      "created_at": "2026-10-18T08:11:41.968Z"
+    },
+    {
+      "id": 6,
+      "name": "Abhishek Bora",
+      "email": "abhishekbb.comp_ioe@bkc.met.edu",
+      "mobile": "7757068371",
+      "password_hash": "$2b$10$ZGMrl1P.H/hYKXk6YB8GKeY2sMTqyemLOvkgJOAmsH971RnBexm5e",
+      "role": "user",
+      "created_at": "2026-10-18T08:20:08.702Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "comment_text": "The symptoms self-assessment tool was very clear and helpful. Glad to have access to this portal!",
+      "created_at": "2026-10-18T05:20:00.000Z",
+      "author_name": "Omkar Ahirrao",
+      "author_email": "omkar@gmail.com",
+      "author_role": "user"
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "comment_text": "Remember to follow the WHO 7-step hand washing technique for at least 20 seconds. Stay safe everyone!",
+      "created_at": "2026-10-18T05:30:00.000Z",
+      "author_name": "Priya Sharma",
+      "author_email": "priya.sharma@outlook.com",
+      "author_role": "user"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@domain.in",
+      "rating": 5,
+      "message": "The light theme is very clean and readable. All features work smoothly!",
+      "created_at": "2026-10-18T05:35:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": null,
+      "email": "Omkar Ahirrao",
+      "rating": "omkar@gmail.com",
+      "message": "Clean light theme and 2-color design looks great!",
+      "created_at": "2026-10-18T07:59:42.292Z"
+    }
+  ]
+}
